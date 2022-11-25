@@ -71,7 +71,7 @@ void print_vec(std::vector<my_friend> vec){
     for(auto item:vec){
         std::cout << item.name << " " << std::put_time(&item.birthday, "%m/%d" ) << std::endl;
     }
-};
+}
 
 void print_next_birthday( std::map<double, std::vector<my_friend>> bro_map){
     if(bro_map.begin()->first == 0){
